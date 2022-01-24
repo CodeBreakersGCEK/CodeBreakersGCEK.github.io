@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ background: linear-gradient(180deg, #051E3E 0%, #004AAD 100%);
+}
+
+.rectangle2 {
+ position: absolute;
+ width: 100vw;
+ height: 10vw;
+ left: 0px;
+ top: 0px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.rectangle2 img {
+ width: 4rem;
+ height: 4rem;
+ margin-left: 4vw;
+}
+
+.rectangle2 ul {
+ width: 40vw;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-right: 4vw;
+}
+
+.rectangle2 ul li {
+ list-style: none;
+ color: white;
+ font-size: 2vw;
+}
+
+.rectangle7 {
+ width: 100vw;
+ height: 56.25vw;
+ left: 0px;
+ top: 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.rectangle7 p {
+ font-family: Fira Code;
+ font-style: normal;
+ font-weight: 500;
+ color: #00F5A0;
+ animation: 1s leftright;
+}
+
+@keyframes leftright {
+ 0% {
+  transform: translateX(-2vw);
+ }
+
+ 100% {
+  transform: translateX(0px);
+ }
+}
+
+.rectangle7 h1 {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ color: white;
+ font-size: 10vw;
+ animation: 1s rightleft;
+}
+
+@keyframes rightleft {
+ 0% {
+  transform: translateX(2vw);
+ }
+
+ 100% {
+  transform: translateX(0px);
+ }
+}
+
+.rectangle8,
+.rectangle9 {
+ width: 100vw;
+ height: 56.25vw;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.rectangle9 {
+ flex-flow: row-reverse;
+}
+
+.rectangle8 .text,
+.rectangle9 .text {
+ width: 30vw;
+ font-size: 1.9vw;
+}
+
+.rectangle8 .text p:first-of-type,
+.rectangle9 .text p:first-of-type {
+ font-family: Fira Code;
+ font-style: normal;
+ font-weight: 500;
+ letter-spacing: 0.05em;
+ color: #00F5A0;
+ margin-bottom: 1.9vw;
+}
+
+.rectangle8 .text p:last-of-type,
+.rectangle9 .text p:last-of-type {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ letter-spacing: 0.05em;
+ color: #FFFFFF;
+}
+
+
+.rectangle8 img,
+.rectangle9 img {
+ width: 35vw;
+ height: 20.17vw;
+ margin-bottom: 14vw;
+ animation: 1s up;
+}
+
+@keyframes up {
+ 0% {
+  transform: translateY(6vw) scale(0.8);
+  opacity: 0%;
+ }
+
+ 100% {
+  transform: translateX(0px) scale(1);
+  opacity: 100%;
+ }
+}
+
+.rectangle9 img {
+ width: 35vw;
+ height: 28.2vw;
+ margin-bottom: 7vw;
+}
+
+.rectangle11 {
+ width: 100vw;
+ height: 10vw;
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ justify-content: center;
+ align-items: center;
+}
+
+.rectangle11 ul {
+ width: 20vw;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.rectangle11 ul li {
+ list-style: none;
+}
+
+.rectangle11 ul li img {
+ width: 2vw;
+ height: 2vw;
+}
+
+.rectangle11 .made {
+ color: #00D9F5;
+ font-size: 1.6vw;
+}
+
+.rectangle11 .made .madeby {
+ color: #00F5A0;
+}
