@@ -41,6 +41,10 @@ body {
  font-size: 2vw;
 }
 
+.navbar .nav li:hover {
+ cursor: pointer;
+}
+
 .header {
  width: 100vw;
  height: 56.25vw;
@@ -97,7 +101,7 @@ body {
  margin-bottom: 1.9vw;
 }
 
-.about .about_text p:last-of-type ,
+.about .about_text p:last-of-type,
 .resource .resource_text p:last-of-type {
  font-family: Montserrat;
  font-style: normal;
@@ -155,3 +159,10 @@ body {
  color: #00F5A0;
 }
 
+@media screen and (max-width: 480px) {
+ .navbar img {
+  width: 2rem;
+  height: 2rem;
+ }
+
+}
