@@ -9,7 +9,7 @@ body {
  background: linear-gradient(180deg, #051E3E 0%, #004AAD 100%);
 }
 
-.rectangle2 {
+.navbar {
  position: absolute;
  width: 100vw;
  height: 10vw;
@@ -21,13 +21,13 @@ body {
  align-items: center;
 }
 
-.rectangle2 img {
+.navbar img {
  width: 4rem;
  height: 4rem;
  margin-left: 4vw;
 }
 
-.rectangle2 ul {
+.navbar .nav {
  width: 40vw;
  display: flex;
  justify-content: space-around;
@@ -35,13 +35,13 @@ body {
  margin-right: 4vw;
 }
 
-.rectangle2 ul li {
+.navbar .nav li {
  list-style: none;
  color: white;
  font-size: 2vw;
 }
 
-.rectangle7 {
+.header {
  width: 100vw;
  height: 56.25vw;
  left: 0px;
@@ -52,14 +52,14 @@ body {
  justify-content: center;
 }
 
-.rectangle7 p {
+.header p {
  font-family: Fira Code;
  font-style: normal;
  font-weight: 500;
  color: #00F5A0;
 }
 
-.rectangle7 h1 {
+.header h1 {
  font-family: Montserrat;
  font-style: normal;
  font-weight: 500;
@@ -67,8 +67,8 @@ body {
  font-size: 10vw;
 }
 
-.rectangle8,
-.rectangle9 {
+.about,
+.resource {
  width: 100vw;
  height: 56.25vw;
  display: flex;
@@ -76,18 +76,19 @@ body {
  align-items: center;
 }
 
-.rectangle9 {
+.resource {
  flex-flow: row-reverse;
 }
 
-.rectangle8 .text,
-.rectangle9 .text {
+.about .about_text,
+.resource .resource_text {
  width: 30vw;
  font-size: 1.9vw;
 }
 
-.rectangle8 .text p:first-of-type,
-.rectangle9 .text p:first-of-type {
+
+.about .about_text p:first-of-type,
+.resource .resource_text p:first-of-type {
  font-family: Fira Code;
  font-style: normal;
  font-weight: 500;
@@ -96,8 +97,8 @@ body {
  margin-bottom: 1.9vw;
 }
 
-.rectangle8 .text p:last-of-type,
-.rectangle9 .text p:last-of-type {
+.about .about_text p:last-of-type ,
+.resource .resource_text p:last-of-type {
  font-family: Montserrat;
  font-style: normal;
  font-weight: 500;
@@ -106,20 +107,20 @@ body {
 }
 
 
-.rectangle8 img,
-.rectangle9 img {
+.about img,
+.resource img {
  width: 35vw;
  height: 20.17vw;
  margin-bottom: 14vw;
 }
 
-.rectangle9 img {
+.resource img {
  width: 35vw;
  height: 28.2vw;
  margin-bottom: 7vw;
 }
 
-.rectangle11 {
+.footer {
  width: 100vw;
  height: 10vw;
  display: flex;
@@ -129,27 +130,28 @@ body {
  align-items: center;
 }
 
-.rectangle11 ul {
+.footer .footer_logo {
  width: 20vw;
  display: flex;
  justify-content: space-around;
  align-items: center;
 }
 
-.rectangle11 ul li {
+.footer .footer_logo li {
  list-style: none;
 }
 
-.rectangle11 ul li img {
+.footer .footer_logo li img {
  width: 2vw;
  height: 2vw;
 }
 
-.rectangle11 .made {
+.footer .footer_develop {
  color: #00D9F5;
  font-size: 1.6vw;
 }
 
-.rectangle11 .made .madeby {
+.footer .footer_develop .footer_develop_by {
  color: #00F5A0;
 }
+
