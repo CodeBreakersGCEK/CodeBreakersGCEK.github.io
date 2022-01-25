@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@500&display=swap');
 
+html {
+ font-size: 10px;
+}
+
 * {
  padding: 0;
  margin: 0;
@@ -22,8 +26,8 @@ body {
 }
 
 .navbar img {
- width: 4rem;
- height: 4rem;
+ width: 5rem;
+ height: 5rem;
  margin-left: 4vw;
 }
 
@@ -96,7 +100,6 @@ body {
  font-family: Fira Code;
  font-style: normal;
  font-weight: 500;
- letter-spacing: 0.05em;
  color: #00F5A0;
  margin-bottom: 1.9vw;
 }
@@ -106,13 +109,11 @@ body {
  font-family: Montserrat;
  font-style: normal;
  font-weight: 500;
- letter-spacing: 0.05em;
  color: #FFFFFF;
 }
 
 
-.about img,
-.resource img {
+.about img {
  width: 35vw;
  height: 20.17vw;
  margin-bottom: 14vw;
@@ -161,8 +162,59 @@ body {
 
 @media screen and (max-width: 480px) {
  .navbar img {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
+ }
+
+ .navbar .nav {
+  width: 80vw;
+ }
+
+ .navbar .nav li {
+  font-size: 3vw;
+ }
+
+ .about,
+ .resource {
+  height: auto;
+  flex-direction: column;
+  margin-top: 10vw;
+ }
+
+ .about .about_text,
+ .resource .resource_text {
+  width: 90vw;
+  font-size: 3vw;
+ }
+
+ .about .about_text p:first-of-type,
+ .resource .resource_text p:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  margin-bottom: 3vw;
+ }
+
+ .about img {
+  width: 70vw;
+  height: 40.34vw;
+  margin-top: 20vw;
+ }
+
+ .resource img {
+  width: 70vw;
+  height: 56.4vw;
+  margin-top: 20vw;
+ }
+ 
+ footer .footer_logo li img{
+  width: 3vw;
+  height: 3vw;
+ }
+ 
+ footer .footer_develop{
+  font-size: 3vw;
  }
 
 }
