@@ -13,6 +13,7 @@ body {
  background: linear-gradient(180deg, #051E3E 0%, #004AAD 100%);
 }
 
+/*NAVVIGATION BAR*/
 .navbar {
  position: absolute;
  width: 100vw;
@@ -48,7 +49,7 @@ body {
 .navbar .nav li:hover {
  cursor: pointer;
 }
-
+/* INTRODUCTION */
 .header {
  width: 100vw;
  height: 56.25vw;
@@ -75,6 +76,7 @@ body {
  font-size: 10vw;
 }
 
+/* BODY */
 .about,
 .resource {
  width: 100vw;
@@ -125,6 +127,7 @@ body {
  margin-bottom: 7vw;
 }
 
+/* CONTACT */
 .footer {
  width: 100vw;
  height: 10vw;
@@ -207,13 +210,13 @@ body {
   height: 56.4vw;
   margin-top: 20vw;
  }
- 
- footer .footer_logo li img{
+
+ footer .footer_logo li img {
   width: 3vw;
   height: 3vw;
  }
- 
- footer .footer_develop{
+
+ footer .footer_develop {
   font-size: 3vw;
  }
 
