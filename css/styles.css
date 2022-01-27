@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-font: "Montserrat";
+  --secondary-font: "Fira Code";
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #c8dcff;
+  --primary-color: rgba(5, 30, 62, 0.4);
+  --secondary-color: #00f5a0;
+}
+
+body {
+  background: linear-gradient(180deg, #051e3e 0%, #023984 100%);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+}
+
+.sticky {
+  height: 70px;
+  background-color: var(--primary-color);
+  backdrop-filter: blur(10px);
+}
+
+.nav__items {
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header__heading {
+  font-weight: 500;
+  font-size: 8rem;
+}
+
+.header__sub-heading {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  font-family: "Fira Code";
+}
+
+.header {
+  transform: translateY(25%);
+}
+
+.wrapper__heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  margin-bottom: 40px;
+}
+
+.wrapper__heading::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+.wrapper__paragraph {
+  color: var(--secondary-text-color);
+  margin: 0 2.4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  max-width: 80%;
+  line-height: 2.4rem;
+}
