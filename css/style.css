@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@500&display=swap');
 
-html {
- font-size: 10px;
-}
-
 * {
  padding: 0;
  margin: 0;
@@ -13,7 +9,6 @@ body {
  background: linear-gradient(180deg, #051E3E 0%, #004AAD 100%);
 }
 
-/*NAVVIGATION BAR*/
 .navbar {
  position: absolute;
  width: 100vw;
@@ -49,7 +44,7 @@ body {
 .navbar .nav li:hover {
  cursor: pointer;
 }
-/* INTRODUCTION */
+
 .header {
  width: 100vw;
  height: 56.25vw;
@@ -63,20 +58,17 @@ body {
 
 .header p {
  font-family: Fira Code;
- font-style: normal;
  font-weight: 500;
  color: #00F5A0;
 }
 
 .header h1 {
  font-family: Montserrat;
- font-style: normal;
  font-weight: 500;
  color: white;
  font-size: 10vw;
 }
 
-/* BODY */
 .about,
 .resource {
  width: 100vw;
@@ -96,11 +88,9 @@ body {
  font-size: 1.9vw;
 }
 
-
 .about .about_text p:first-of-type,
 .resource .resource_text p:first-of-type {
  font-family: Fira Code;
- font-style: normal;
  font-weight: 500;
  color: #00F5A0;
  margin-bottom: 1.9vw;
@@ -109,11 +99,9 @@ body {
 .about .about_text p:last-of-type,
 .resource .resource_text p:last-of-type {
  font-family: Montserrat;
- font-style: normal;
  font-weight: 500;
  color: #FFFFFF;
 }
-
 
 .about img {
  width: 35vw;
@@ -127,7 +115,6 @@ body {
  margin-bottom: 7vw;
 }
 
-/* CONTACT */
 .footer {
  width: 100vw;
  height: 10vw;
